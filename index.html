@@ -5,26 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>todo app</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <section>
-        <div>
-            <input type="text">
-            <button>Add</button>
+    <section class="todoContainer">
+        <div class="inputContainer">
+            <input class="input" type="text">
+            <button class="addBtn">Add</button>
         </div>
-        <div>
-            <ul>
-                <li>
-                    todo item 1
-                    <button>Delete</button>
+        <div class="listContainer">
+            <ul class="list">
+                <li class="listItem">
+                    <div class="itemTextContainer">
+                        <input class="itemCheckbox" type="checkbox">
+                        <span class="itemText">todo item 1</span>
+                    </div>
+                    <button class="itemDeleteBtn">X</button>
                 </li>
-                <li>
-                    todo item 2
-                    <button>Delete</button>
+                <li class="listItem">
+                    <div class="itemTextContainer">
+                        <input class="itemCheckbox" type="checkbox">
+                        <span class="itemText">todo item 2</span>
+                    </div>
+                    <button class="itemDeleteBtn">X</button>
                 </li>
-                <li>
-                    todo item 3
-                    <button>Delete</button>
+                <li class="listItem">
+                    <div class="itemTextContainer">
+                        <input class="itemCheckbox" type="checkbox">
+                        <span class="itemText">todo item 3</span>
+                    </div>
+                    <button class="itemDeleteBtn">X</button>
                 </li>
             </ul>
         </div>
