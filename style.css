@@ -26,18 +26,23 @@ body {
 .inputContainer {
     display: flex;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .input {
-    height: 30px;
+    height: 37px;
     padding-left: 10px;
     padding-right: 10px;
+    border-radius: 5px 0 0 5px;
     border: none;
 }
 
 .addBtn {
     border: none;
     width: 40px;
+    font-size: 1.5rem;
+    cursor: pointer;
 }
 
 .list {
